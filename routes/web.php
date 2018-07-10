@@ -19,6 +19,10 @@ Route::get('/home', function () {
     return view('dashboard.index');
 });
 
+Route::get('/consultation', function () {
+    return view('dashboard.konsultasi');
+});
+
 Route::get('/', function () {
     return view('welcome');
 });
