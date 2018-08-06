@@ -1,5 +1,4 @@
 <?php
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -11,23 +10,12 @@
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-
-Route::get('/home', function () {
-    return view('dashboard.index');
-});
-
-Route::get('/consultation', function () {
-    return view('dashboard.konsultasi');
-});
-
 Route::get('/', function () {
     return view('welcome');
 });
 
-
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/consultation', 'HomeController@consultation')->name('consultation');
+Route::get('/category', 'HomeController@category')->name('category');

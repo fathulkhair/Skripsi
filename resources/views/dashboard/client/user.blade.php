@@ -5,7 +5,7 @@
           <div class="profile">
             <div class="info"><img class="user-img" src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg">
               <h4>John Doe</h4>
-  
+
             </div>
             <div class="cover-image"></div>
           </div>
@@ -54,7 +54,7 @@
                 </ul>
               </div>
             </div>
-      @include('dashboard.setting_user')
+      @include('dashboard.client.setting_user')
           </div>
         </div>
       </div>

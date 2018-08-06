@@ -30,7 +30,7 @@
                                       @csrf
                                   </form>
                           </li>
-                          
+
                       @endguest
       </ul>
     </li>

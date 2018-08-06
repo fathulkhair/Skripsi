@@ -23,6 +23,16 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('dashboard.index');
+        return view('dashboard.client.index');
+    }
+
+    public function consultation()
+    {
+        return view('dashboard.client.formkonsultasi');
+    }
+
+    public function category()
+    {
+        return view('dashboard.client.pilihkategori');
     }
 }

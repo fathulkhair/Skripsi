@@ -1,12 +1,12 @@
-@extends('dashboard.layouts')
+@extends('dashboard.admin.layouts')
 @section('content')
 
-@include('dashboard.nav')
+@include('dashboard.admin.nav')
 
 <!-- Sidebar menu-->
-@include('dashboard.sidebar')
+@include('dashboard.admin.sidebar')
 
-@include('dashboard.form')
+
 
 
 
